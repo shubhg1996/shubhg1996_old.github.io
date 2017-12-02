@@ -203,6 +203,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _teaching2
+  - scope:
+      path: ""
+      type: teaching2
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _teaching
   - scope:
       path: ""
