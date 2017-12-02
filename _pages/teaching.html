@@ -6,7 +6,12 @@ author_profile: true
 ---
 
 {% include base_path %}
-
+<h2>Technical Projects</h2>
 {% for post in site.teaching %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Course Projects</h2>
+{% for post in site.teaching2 %}
   {% include archive-single.html %}
 {% endfor %}
