@@ -8,5 +8,5 @@ author_profile: true
 {% include base_path %}
 {% assign sorted = (site.teaching | sort: 'date') | reverse %}
 {% for post in sorted%}
-  {% include archive-single.html %}
+  {% include archive-single_mod.html %}
 {% endfor %}
