@@ -10,7 +10,7 @@ main:
     url: /teaching/    
 
   - title: "CV"
-    url: /cv/
+    url: http://academicpages.github.io/files/CV.pdf
     
   - title: "Skills"
     url: /skills/
