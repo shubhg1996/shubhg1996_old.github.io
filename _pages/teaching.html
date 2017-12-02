@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 {% assign rawtags = "" %}
-{% for post in site.posts %}
+{% for post in site.teaching %}
   {% assign ttags = post.tags | join:'|' | append:'|' %}
   {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
@@ -27,22 +27,5 @@ author_profile: true
 {% assign sorted = (site.teaching | sort: 'date') | reverse %}
 
 {% for tag in tags %}
-<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
-<ul>
- {% for post in sorted %}
-   {% if post.tags contains tag %}
-   <li>
-   <h3>
-   <a href="{{ post.url }}">
-   {{ post.title }}
-   <small>{{ post.date | date_to_string }}</small>
-   </a>
-   {% for tag in post.tags %}
-     <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
-   {% endfor %}
-   </h3>
-   </li>
-   {% endif %}
- {% endfor %}
-</ul>
+  <a href="#{{ tag | slugify }}"> {{ tag }} </a>
 {% endfor %}
