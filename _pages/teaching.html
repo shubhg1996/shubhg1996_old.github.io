@@ -29,7 +29,6 @@ redirect_from:
 {% assign sorted = (site.teaching | sort: 'date') | reverse %}
 
 {% for tag in tags %}
-<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
  {% for post in sorted %}
    {% if post.tags contains tag %}
     {% include archive-single_mod.html %}
