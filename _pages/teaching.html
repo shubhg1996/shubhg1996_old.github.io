@@ -28,7 +28,7 @@ redirect_from:
 
 {% assign sorted = (site.teaching | sort: 'date') | reverse %}
 
-{% for tag in tags %}
+{% for tag in tags reversed%}
  {% for post in sorted %}
    {% if post.tags contains tag %}
     {% include archive-single_mod.html %}
