@@ -8,9 +8,12 @@ main:
 
   - title: "Projects"
     url: /teaching/    
-
-  - title: "CV"
-    url: http://shubhg1996.github.io/files/CV.pdf
     
   - title: "Skills"
     url: /skills/
+
+  - title: "Courses"
+    url: /courses/
+
+  - title: "CV"
+    url: http://shubhg1996.github.io/files/CV.pdf
