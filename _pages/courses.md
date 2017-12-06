@@ -9,7 +9,7 @@ redirect_from:
 ## SYSTEMS
 * Operating Systems, Computer Organization, Embedded and Cyber-Physical Systems, Signals, Systems & Networks
 
-## CONTROLS AND ROBOTICS
+## CONTROL AND ROBOTICS
 * Digital Control, Probabilistic Mobile Robotics, Control Systems Analysis
 
 ## COMPUTER VISION AND PROGRAMMING
