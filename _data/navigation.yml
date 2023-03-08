@@ -6,14 +6,14 @@ main:
   - title: "Publications"
     url: /publications/ 
 
-  - title: "Projects"
-    url: /teaching/    
+  - title: "Selected Projects"
+    url: /projects/
+  
+  - title: "Invited Talks"
+    url: /talks/    
     
-  - title: "Skills"
-    url: /skills/
-
-  - title: "Courses"
-    url: /courses/
+  - title: "Patents"
+    url: /patents/
 
   - title: "CV"
     url: http://shubhg1996.github.io/files/CV.pdf
